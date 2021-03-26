@@ -10,7 +10,7 @@ function crearGato(nombre, edad) {
     nombre: nombre,
     edad: edad,
     meow: function(){
-      return "Meow!"
+      return "Meow!";
     }
   }
   return obj;
@@ -46,7 +46,7 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
-  delete objeto[unaPropiedad]
+  delete objeto[unaPropiedad];
   return objeto;
 }
 
